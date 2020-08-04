@@ -1,5 +1,5 @@
 # 2x2-Rubiks-Cube-Solver
-**Used Python and a 2 sided Breadth First Search to solve a 2x2 Rubiks Cube.
+**Used Python and a 2 sided Breadth First Search to solve a 2x2 Rubiks Cube.**
 
 Inspired by project in MIT 6.006. Created from scratch uniquely.
 
