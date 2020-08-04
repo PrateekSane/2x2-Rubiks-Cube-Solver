@@ -5,8 +5,11 @@ Inspired by project in MIT 6.006. Created from scratch uniquely.
 
 ## Cube format
 **Created the cube API from scratch.** Each of the 6 sides has 4 different squares resulting in 24 squares. Furthermore, there are a total of 8 corner pieces that make up the cube, each of which has 3 orientations and therefore goes along with the 24 squares. 
+
 I defined each of the 24 subsections of each side as a string with 'xyz' as the format where x is the color immediately facing and the y and z go in clockwise order around the cube for that corner. 
+
 I went around the cube and assigned each side with a fixed number representing the solved state. For example, 0, 1, 2, 3 are the 4 parts of the front facing white side where 0 is top left and the ohter go in clockwise order.
+
 There are 12 moves that can be performed on the cube. Right, left, top, bottom, front, back. Each of these also have their counter clockwise motions so 6x2 = 12 moves. Each of these 12 manipulate half of the cube so 12 squares. To make these moves, I created dictionaries for each of the 6 clockwise for which sub-square rotates from the original to the following position. To do the primes, I just switched the keys and values.
 
 ## Solution
