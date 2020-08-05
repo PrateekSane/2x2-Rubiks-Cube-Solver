@@ -4,7 +4,7 @@
 Inspired by project in MIT 6.006. Created from scratch uniquely.
 
 ## Cube format
-**Created the cube API from scratch.** Each of the 6 sides has 4 different squares resulting in 24 squares. Furthermore, there are a total of 8 corner pieces that make up the cube, each of which has 3 orientations and therefore goes along with the 24 squares. 
+**Created the cube API, Algorithm, and GUI from scratch.** Each of the 6 sides has 4 different squares resulting in 24 squares. Furthermore, there are a total of 8 corner pieces that make up the cube, each of which has 3 orientations and therefore goes along with the 24 squares. 
 
 I defined each of the 24 subsections of each side as a string with 'xyz' as the format where x is the color immediately facing and the y and z go in clockwise order around the cube for that corner. 
 
@@ -23,4 +23,6 @@ During all of this, each node saves it's parent (for the front branching) or chi
 
 ## Learning
 This project applied my use of **graph theory and Breadth First Search**. I improved my ability in Python and recursion. I also experimentally found the max moves to solve a 2x2 cube to be **11 moves** since I could never find a solution that took longer
+
+Learned how to use tkinter library to make GUI for the project
 
